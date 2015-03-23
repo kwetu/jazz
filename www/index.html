@@ -11,6 +11,7 @@
   
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/demo.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
   <script src="lib/onsen/js/angular/angular.js"></script>    
@@ -25,23 +26,15 @@
 </head>
 
 <body>    
+<ons-tabbar>
+    <ons-tab page="radio.html" label="Radio" icon="ion-radio-waves" active="true"></ons-tab>
+  <ons-tab page="news.html" label="News" icon="ion-chatbox-working"></ons-tab>
+  <ons-tab page="about.html" label="About" icon="fa fa-info"></ons-tab>
+  <ons-tab page="tweet.html" label="Tweets" icon="ion-social-twitter"></ons-tab>
+  <ons-tab page="settings.html" label="Share" icon="fa fa-share-alt" onclick="window.plugins.socialsharing.share('Message only')">Message Only</ons-tab>
+</ons-tabbar>
 
 
-  <ons-tabbar>
-    <ons-tab page="radio.html" active="true">
-      <ons-icon icon="ion-radio-waves"></ons-icon>
-      <span class="tab-label">Radio</span>
-    </ons-tab>
-    <ons-tab page="news.html">
-      <ons-icon icon="ion-document-text"></ons-icon>
-      <span class="tab-label">News</span>
-    </ons-tab>  
-    <ons-tab page="tweet.html">
-      <ons-icon icon="ion-social-twitter"></ons-icon>
-      <span class="tab-label">tweets</span>
-    </ons-tab> 
-    
   
-  </ons-tabbar>
 </body>
 </html>
