@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.radio.kwetu"
+        id          = "com.radio.jazzfm"
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <name>Ghetto Radio</name>
+    <name>Jazz 106.1 FM</name>
 
     <description>
         A radio app for streaming radio and news from kenyas leading hit radio station
