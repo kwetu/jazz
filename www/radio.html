@@ -13,16 +13,19 @@
     <div class="radiobox">
       <ons-row align="center">
         <ons-col width="32%"></ons-col>
-        <ons-col width="40%">
-          <img class="rounded" src="img/cover.png" align="center">
+        <ons-col width="90%">
+        <h2 align="center">Jazz 101.6 FM</h2>
+          <!--<img class="rounded" src="img/cover.png" align="center">-->
           <p id="stream-time">{{ radio.currentTime | SecondsToTimeString }}</p>
         </ons-col>
-        <ons-col width="5%"></ons-col>
+        <ons-col width="40%"></ons-col>
       </ons-row>        
       <ons-row align="center">
         <ons-col width="32%"></ons-col>
+        
         <ons-col width="36%" align="center">
           <a href="#" id="btn-play" ng-click="startRadio()" ng-bind-html="renderHtml(buttonIcon)"><span class="ion-ios7-play"></span></a>
+          
         </ons-col>
         <ons-col width="32%"></ons-col>
       </ons-row>
