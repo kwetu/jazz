@@ -1,5 +1,5 @@
 // ons.disableAutoStatusBarFill(); - Disable the status bar margin.
-var app = angular.module('app', ['onsen', 'ngAudio','twitter.timeline']);
+var app = angular.module('app', ['onsen', 'ngAudio']);
 
 // tweet Controller
 /*
