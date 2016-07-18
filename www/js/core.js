@@ -14,7 +14,7 @@ var isPlaying = false;
 
 app.controller('radioController', function($scope, $sce, ngAudio){
 	
-	$scope.radioURL = 'http://46.28.49.164:7926/stream'; // http://streams.kqed.org/kqedradio.m3u
+	$scope.radioURL = 'http://91.121.165.88:8116/stream'; // http://streams.kqed.org/kqedradio.m3u
 	$scope.buttonIcon = '<span class="ion-ios7-play"></span>';
 
 	if (radio!==null) {		
