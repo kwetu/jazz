@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.radio.jazzfm"
+        id          = "com.radio.hbr"
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <name>Jazz 106.1 FM</name>
+    <name>HBR</name>
 
     <description>
-        A radio app for streaming radio and news from kenyas leading hit radio station
+       Homeboyz Radio
     </description>
 
     <author href="https://kwetudesign.co.ke" email="kwetudesign@gmail.com">
-        Antony Muthii 
+        kwetu design 
     </author>
     
     <icon src="icon.png" />
