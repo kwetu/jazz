@@ -94,6 +94,8 @@ app.filter('SecondsToTimeString', function() {
 
 // News Controller
 
+// News Controller
+
 app.filter('htmlToPlaintext', function() {
     return function(text) {
       return String(text).replace(/<[^>]+>/gm, '');
@@ -155,4 +157,3 @@ app.controller('postController', [ '$scope', '$rootScope', '$sce', function($sco
     };
 
 }]);
-
