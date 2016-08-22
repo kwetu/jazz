@@ -20,7 +20,7 @@
 			interstitial: 'ca-app-pub-xxxxxxx/xxxxxxx'
 		},
 		android : {
-			banner: 'ca-app-pub-xxxxxxx/xxxxxxx', // or DFP format "/6253334/dfp_example_ad"
+			banner: 'ca-app-pub-9758193265978664/9765967833', // or DFP format "/6253334/dfp_example_ad"
 			interstitial: 'ca-app-pub-xxxxxxx/xxxxxxx'
 		}
 	};

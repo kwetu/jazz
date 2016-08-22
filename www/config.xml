@@ -26,6 +26,7 @@
 	<gap:platform name="winphone" />
 
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+    <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
     
 
 </widget>
